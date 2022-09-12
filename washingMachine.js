@@ -16,4 +16,8 @@ const washingDress = ()=>{
     setTimeout(()=>{console.log("washing finished")},7000)
 }
 
-module.exports = {loadingDress: loadingDress, washingDress}
+const dryingCloths = ()=>{
+    setTimeout(()=>{console.log("Cloth dryed")},5000);
+}
+
+module.exports = {loadingDress: loadingDress, washingDress, dryingCloths}
