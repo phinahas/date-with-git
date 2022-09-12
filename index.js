@@ -9,5 +9,5 @@ washingMachine.washingDress()
 console.log("=============Welcome to dish washer===================")
 dishWasher.loadingPlates();
 dishWasher.washingPlates();
-washingMachine.dryingCloths()
+washingMachine.dryingCloths();
 
