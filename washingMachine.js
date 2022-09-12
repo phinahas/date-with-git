@@ -9,6 +9,11 @@ const loadingDress = ()=>{
         console.log("Loading finished")
     },5000)
 
+
 }
 
-module.exports = {loadingDress: loadingDress}
+const washingDress = ()=>{
+    setTimeout(()=>{console.log("washing finished")},7000)
+}
+
+module.exports = {loadingDress: loadingDress, washingDress}

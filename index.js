@@ -4,3 +4,4 @@ const washingMachine = require('./washingMachine');
 
 console.log("============Welcome to washing machine====================")
 washingMachine.loadingDress()
+washingMachine.washingDress()
