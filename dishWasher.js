@@ -5,4 +5,8 @@ const loadingPlates = () => {
   }, 6000);
 };
 
-module.exports = { loadingPlates: loadingPlates };
+const washingPlates = () => {
+    setTimeout(() => {console.log("Plate washed");},5000)
+}
+
+module.exports = { loadingPlates: loadingPlates, washingPlates:washingPlates };

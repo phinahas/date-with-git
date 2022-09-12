@@ -7,4 +7,5 @@ console.log("============Welcome to washing machine====================")
 washingMachine.loadingDress()
 
 console.log("=============Welcome to dish washer===================")
-dishWasher.loadingPlates()
+dishWasher.loadingPlates();
+dishWasher.washingPlates();
